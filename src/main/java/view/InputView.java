@@ -2,21 +2,43 @@ package view;
 
 import constants.Description;
 import exception.Payment;
+import exception.Lotto;
+import model.ModifyInput;
 import camp.nextstep.edu.missionutils.Console;
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class InputView {
 
-    public int callPayment () {
-        int inputNumber = 0;
+    public int callPayment() {
+        int inputNumber;
         try {
             System.out.println(Description.CALL_PAYMENT.getMessage());
             inputNumber = Integer.parseInt(Console.readLine());
-            Payment payment = new Payment(inputNumber);
+            new Payment(inputNumber);
         } catch (IllegalArgumentException e) {
             System.out.println(Description.PAYMENT_EXCEPTION.getMessage());
             return callPayment();
         }
         System.out.println(inputNumber);
         return inputNumber;
+    }
+
+    public List<Integer> callWinningNumber() {
+        String inputString;
+        List<Integer> inputList = new ArrayList<>();
+        try {
+            System.out.println(Description.CALL_WINNINGNUMBER.getMessage());
+            inputString = Console.readLine();
+            ModifyInput modifyInput = new ModifyInput();
+            inputList = modifyInput.inputToList(inputString);
+            new Lotto(inputList);
+        } catch (IllegalArgumentException e) {
+            System.out.println(Description.WINNING_NUMBER_EXCEPTION.getMessage());
+            return callWinningNumber();
+        }
+        System.out.println(inputString);
+        return inputList;
     }
 }

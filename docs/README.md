@@ -8,13 +8,14 @@
 
 - inputView class
 - [0] 구입금액 요청 및 반환 callPayment
-- [ ] 당첨번호 요청 및 반환 callWinningNumber
+- [0] 당첨번호 요청 및 반환 callWinningNumber
 - [ ] 보너스 번호 요청 및 반환 callBonusNumber
 
 ### controller package 프로젝트 진행
 - [ ] Controller class 
 
 ### model package
+- [0] 입력된 당첨 번호를 Integer형 list로 변환 - inputToList
 - [ ] 랜덤 로또 번호 생성 createLottoNumber
 - [ ] 당첨 여부 판단 checkWinning
 - [ ] 수익률 판단 checkReturn
@@ -23,6 +24,6 @@
 - [0] string 상수 Enum으로 관리 - Description class
 
 ### exception packagae
-- [ ] 로또 번호에 대한 예외 처리 lotto
-- [ ] 구입 금액에 대한 예외 처리 payment
+- [0] 로또 번호에 대한 예외 처리 lotto
+- [0] 구입 금액에 대한 예외 처리 payment
 - [ ] 보너스 번호에 대한 예외 처리 bonusNumber
