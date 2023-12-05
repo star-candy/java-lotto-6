@@ -20,7 +20,7 @@
 - [ ] 수익률 판단 checkReturn
 
 ### constatns package
-- [ ] string 상수 Enum으로 관리 - Description class
+- [0] string 상수 Enum으로 관리 - Description class
 
 ### exception packagae
 - [ ] 로또 번호에 대한 예외 처리 lotto
