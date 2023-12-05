@@ -7,7 +7,7 @@
 - [ ] 수익률을 출력하는 기능 lottoReturn
 
 - inputView class
-- [ ] 구입금액 요청 및 반환 callPayment
+- [0] 구입금액 요청 및 반환 callPayment
 - [ ] 당첨번호 요청 및 반환 callWinningNumber
 - [ ] 보너스 번호 요청 및 반환 callBonusNumber
 

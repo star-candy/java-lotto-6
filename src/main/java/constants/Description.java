@@ -17,6 +17,8 @@ public enum Description {
     TOTAL_RETURN("총 수익률은 %f%%입니다."),
     BONUS_EXCEPTION("[ERROR] 보너스 번호는 1개의 숫자여야 합니다."),
     PAYMENT_EXCEPTION("[ERROR] 구입금액에는 숫자가 입력되어야 합니다."),
+    PAYMENT_AMOUNT_EXCEPTION("[ERROR] 구입금액은 1000원 이상이어야 합니다."),
+    CHANGES_EXCEPTION("[ERROR] 1000원 단위로 구입하실 수 있습니다."),
     WINNING_NUMBER_EXCEPTION("[ERROR] 로또 번호는 6개의 숫자여야 합니다");
 
     private final String message;
