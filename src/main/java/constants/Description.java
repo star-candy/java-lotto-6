@@ -14,7 +14,7 @@ public enum Description {
             6개 일치 (2,000,000,000원) - %d개
             
             """),
-    TOTAL_RETURN("총 수익률은 %f%%입니다."),
+    TOTAL_RETURN("총 수익률은 %.1f%%입니다."),
     BONUS_EXCEPTION("[ERROR] 보너스 번호는 1개의 숫자여야 합니다."),
     PAYMENT_EXCEPTION("[ERROR] 구입금액에는 숫자가 입력되어야 합니다. 다시 입력해주세요."),
     PAYMENT_AMOUNT_EXCEPTION("[ERROR] 구입금액은 1000원 이상이어야 합니다."),

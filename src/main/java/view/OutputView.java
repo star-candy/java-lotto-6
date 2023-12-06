@@ -13,4 +13,8 @@ public class OutputView {
         System.out.printf(Description.WINNING_STATICS.getMessage(),
                 winningStatics.get(0), winningStatics.get(1), winningStatics.get(2), winningStatics.get(3));
     }
+
+    public void lottoReturn(double totalReturn) {
+        System.out.printf(Description.TOTAL_RETURN.getMessage(), totalReturn);
+    }
 }
