@@ -16,7 +16,7 @@
 
 ### model package
 - [0] 입력된 당첨 번호를 Integer형 list로 변환 - inputToList
-- [ ] 랜덤 로또 번호 생성 createLottoNumber
+- [0] 랜덤 로또 번호 생성 createLottoNumber
 - [ ] 당첨 여부 판단 checkWinning
 - [ ] 수익률 판단 checkReturn
 
