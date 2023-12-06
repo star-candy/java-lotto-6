@@ -9,7 +9,7 @@
 - inputView class
 - [0] 구입금액 요청 및 반환 callPayment
 - [0] 당첨번호 요청 및 반환 callWinningNumber
-- [ ] 보너스 번호 요청 및 반환 callBonusNumber
+- [0] 보너스 번호 요청 및 반환 callBonusNumber
 
 ### controller package 프로젝트 진행
 - [ ] Controller class 
@@ -26,4 +26,4 @@
 ### exception packagae
 - [0] 로또 번호에 대한 예외 처리 lotto
 - [0] 구입 금액에 대한 예외 처리 payment
-- [ ] 보너스 번호에 대한 예외 처리 bonusNumber
+- [0] 보너스 번호에 대한 예외 처리 bonusNumber

@@ -3,6 +3,7 @@ package view;
 import constants.Description;
 import exception.Payment;
 import exception.Lotto;
+import exception.BonusNumber;
 import model.ModifyInput;
 import camp.nextstep.edu.missionutils.Console;
 import java.util.ArrayList;
@@ -41,4 +42,19 @@ public class InputView {
         System.out.println(inputString);
         return inputList;
     }
+
+    public int callBonusNumber() {
+        int inputBonus = 0;
+        try {
+            System.out.println(Description.CALL_BONUSNUMBER.getMessage());
+            inputBonus = Integer.parseInt(Console.readLine());
+            new BonusNumber(inputBonus);
+
+        } catch (IllegalArgumentException e) {
+            System.out.println(Description.BONUS_EXCEPTION.getMessage());
+            return callBonusNumber();
+        }
+        return inputBonus;
+    }
+
 }
