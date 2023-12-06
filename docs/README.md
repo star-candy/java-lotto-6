@@ -2,8 +2,8 @@
 
 ### view package
 - outputView class
-- [ ] 로또 구매 갯수와 로또 번호를 출력하는 기능 Lotto
-- [ ] 로또 당첨 통계를 출력하는 기능 lottoStatic
+- [0] 로또 구매 갯수와 로또 번호를 출력하는 기능 Lotto
+- [0] 로또 당첨 통계를 출력하는 기능 lottoStatic
 - [ ] 수익률을 출력하는 기능 lottoReturn
 
 - inputView class
