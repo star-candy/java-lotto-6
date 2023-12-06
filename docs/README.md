@@ -4,7 +4,7 @@
 - outputView class
 - [0] 로또 구매 갯수와 로또 번호를 출력하는 기능 Lotto
 - [0] 로또 당첨 통계를 출력하는 기능 lottoStatic
-- [ ] 수익률을 출력하는 기능 lottoReturn
+- [0] 수익률을 출력하는 기능 lottoReturn
 
 - inputView class
 - [0] 구입금액 요청 및 반환 callPayment
